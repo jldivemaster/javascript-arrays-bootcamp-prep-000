@@ -5,15 +5,15 @@ function addElementToBeginningOfArray(arr, ele) {
 }
 
 function destructivelyAddElementToBeginningOfArray(arr, ele) {
-  arr.unshift(ele)
+  return arr.unshift(ele)
 }
 
 function addElementToEndOfArray(arr, ele) {
-  [arr,...ele]
+  return [arr,...ele]
 }
 
 function destructivelyAddElementToEndOfArray(arr, ele) {
-  arr.push(ele)
+  return arr.push(ele)
 }
 
 function accessElementInArray(arr, idx) {
